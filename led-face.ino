@@ -1,3 +1,9 @@
+/*
+ * Arduino MAX7219 demo
+ * based on
+ *   https://robotclass.ru/tutorials/arduino-matrix-8x8-max7219/
+ */
+
 #include <SPI.h>
 #include <Adafruit_GFX.h>
 #include <Max72xxPanel.h>

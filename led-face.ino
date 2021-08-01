@@ -31,22 +31,8 @@ void loop() {
     matrix.drawPixel(6, 5, HIGH); // зажигаем пиксель с координатами    
     matrix.write(); // вывод всех пикселей на матрицу
     delay(5000);
-    matrix.drawPixel(1, 2, LOW); // гасим пиксель
-    matrix.drawPixel(2, 3, LOW); // гасим пиксель 
-    matrix.drawPixel(2, 2, LOW); // гасим пиксель
-    matrix.drawPixel(1, 3, LOW); // гасим пиксель
-    matrix.drawPixel(5, 3, LOW); // гасим пиксель 
-    matrix.drawPixel(6, 3, LOW); // гасим пиксель
-    matrix.drawPixel(6, 2, LOW); // гасим пиксель 
-    matrix.drawPixel(5, 2, LOW); // гасим пиксель 
-    matrix.drawPixel(1, 5, LOW); // гасим пиксель 
-    matrix.drawPixel(1, 6, LOW); // гасим пиксель 
-    matrix.drawPixel(2, 6, LOW); // гасим пиксель
-    matrix.drawPixel(3, 6, LOW); // гасим пиксель 
-    matrix.drawPixel(4, 6, LOW); // гасим пиксель
-    matrix.drawPixel(5, 6, LOW); // гасим пиксель
-    matrix.drawPixel(6, 6, LOW); // гасим пиксель 
-    matrix.drawPixel(6, 5, LOW); // гасим пиксель
+
+    matrix.fillScreen(LOW);
     matrix.write();
     delay(300);
 }
